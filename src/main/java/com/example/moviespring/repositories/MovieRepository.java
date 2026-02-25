@@ -5,11 +5,12 @@ import com.example.moviespring.models.Movie;
 import java.io.File;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class MovieRepository {
     private File movieFile;
-    private ArrayList<Movie> allMovies = new ArrayList<Movie>();
+    private List<Movie> allMovies = new ArrayList<Movie>();
 
     public MovieRepository(){
         //Fetching the file
@@ -26,7 +27,7 @@ public class MovieRepository {
         scanner.close();
     }
 
-    public ArrayList<Movie> getAllMovies(){
+    public List<Movie> getAllMovies(){
         return allMovies;
     }
 }

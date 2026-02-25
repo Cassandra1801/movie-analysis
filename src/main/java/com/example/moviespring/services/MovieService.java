@@ -11,10 +11,19 @@ public class MovieService {
     private List<Movie> allMovies = movieRepo.getAllMovies();
 
     public Movie getFirst(){
-        return allMovies.get(1);
+        return allMovies.get(0);
     }
 
     public int getCount(){
         return allMovies.size();
+    }
+
+    public static double getAverageLength(List<Movie> movies){
+        int total = 0;
+
+        for (Movie m : movies) {
+            total += m.getLength();
+        }
+        return (double) total/movies.size();
     }
 }

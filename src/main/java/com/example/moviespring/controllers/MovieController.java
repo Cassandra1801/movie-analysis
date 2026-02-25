@@ -33,6 +33,6 @@ public class MovieController {
         ModelAndView mav = new ModelAndView();
         Movie first = service.getFirst();
         mav.addObject("firstMovie",first);
-        return new ModelAndView("first");
+        return mav;
     }
 }
