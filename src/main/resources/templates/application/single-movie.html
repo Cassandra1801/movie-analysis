@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie</title>
+    <link rel="stylesheet" th:href="@{../single-movie.css}">
+    <link rel="stylesheet" href="../../static/single-movie.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Movie Details</h1>
+
+    <div class="card">
+
+        <div class="row">
+            <div class="label">Title</div>
+            <div class="value">8 1/2</div>
+        </div>
+
+        <div class="row">
+            <div class="label">Year</div>
+            <div class="value">1963</div>
+        </div>
+
+        <div class="row">
+            <div class="label">Length</div>
+            <div class="value">138 minutes</div>
+        </div>
+
+        <div class="row">
+            <div class="label">Genre</div>
+            <div class="value genre">
+                <span class="dot"></span>
+                Drama
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="label">Popularity</div>
+            <div class="value">80</div>
+        </div>
+
+        <div class="row">
+            <div class="label">Awards</div>
+            <div class="value"><span class="badge">Yes</span></div>
+        </div>
+
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-inner">
+        <span>IMovies</span>
+        <span class="sep">•</span>
+        <span>Dataset demo</span>
+        <span class="sep">•</span>
+        <span>&copy; 2026</span>
+    </div>
+</footer>
+
+</body>
+</html>

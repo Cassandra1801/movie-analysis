@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>First 3</title>
+</head>
+<body>
+<h2>First 3 movies</h2>
+
+<main th:each="movie: ${movies}">
+  <p>
+    <span th:text="${movie.title}">Title</span>
+  </p>
+</main>
+
+</body>
+</html>

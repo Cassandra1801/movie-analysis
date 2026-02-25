@@ -3,6 +3,7 @@ package com.example.moviespring.services;
 import com.example.moviespring.models.Movie;
 import com.example.moviespring.repositories.MovieRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MovieService {
@@ -12,5 +13,4 @@ public class MovieService {
     public Movie getFirst(){
         return allMovies.get(1);
     }
-
 }

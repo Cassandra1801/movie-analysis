@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IMovies</title>
+  <link rel="stylesheet" th:href="@{../list.css}">
+  <link rel="stylesheet" href="../../static/list.css">
+</head>
+
+<body>
+
+<div class="container">
+  <h1>Movies</h1>
+
+  <div class="card">
+    <div class="card-header">Movie dataset</div>
+
+    <table>
+      <thead>
+      <tr>
+        <th>Year</th>
+        <th>Length</th>
+        <th>Title</th>
+        <th>Genre</th>
+        <th>Popularity</th>
+        <th>Awards</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <tr>
+        <td>1963</td>
+        <td>138</td>
+        <td><strong>8 1/2</strong></td>
+        <td><span class="genre-dot"></span>Drama</td>
+        <td>80</td>
+        <td><span class="badge">Yes</span></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>IMovies</span>
+    <span class="sep">•</span>
+    <span>Dataset demo</span>
+    <span class="sep">•</span>
+    <span>&copy; 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    background:#0b1020;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    z-index:-1;
+    background:
+            radial-gradient(circle at 20% 20%, #1e293b, transparent 60%),
+            radial-gradient(circle at 80% 30%, #1d4ed8, transparent 60%),
+            #0b1020;
+}
+
+/* layout */
+.container{
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 40px;
+}
+
+h1{
+    margin: 0 0 22px;
+    font-size: 44px;
+}
+
+/* card */
+.card{
+    width: 100%;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.card-header{
+    padding: 16px 22px;
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.75);
+    font-size: 14px;
+}
+
+/* table wrapper */
+.table-wrap{
+    overflow-x: auto;
+}
+
+/* table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;         /* <-- key */
+}
+
+th, td{
+    padding: 16px 22px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* header */
+th{
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(255,255,255,0.75);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+/* rows */
+td{
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    font-size: 14px;
+}
+
+tbody tr:last-child td{
+    border-bottom: none;
+}
+
+tbody tr:hover{
+    background: rgba(255,255,255,0.05);
+}
+
+/* column widths (makes it look “spread out”) */
+th:nth-child(1), td:nth-child(1){ width: 10%; }  /* Year */
+th:nth-child(2), td:nth-child(2){ width: 10%; }  /* Length */
+th:nth-child(3), td:nth-child(3){ width: 30%; }  /* Title */
+th:nth-child(4), td:nth-child(4){ width: 18%; }  /* Genre */
+th:nth-child(5), td:nth-child(5){ width: 14%; }  /* Popularity */
+th:nth-child(6), td:nth-child(6){ width: 18%; }  /* Awards */
+
+/* allow title to breathe (wrap) */
+td:nth-child(3){
+    white-space: normal;
+    font-weight: 700;
+}
+
+/* keep numbers on one line if you add class="num" */
+.num{
+    white-space: nowrap;
+}
+
+/* badge */
+.badge{
+    background:#14532d;
+    color:#a7f3d0;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+/* genre */
+.genre{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #38bdf8;
+}
+
+/* footer */
+.footer{
+    margin-top: 80px;
+    padding: 24px 0;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.02);
+}
+
+.footer-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
+}
+
+.footer-inner .sep{
+    opacity: 0.4;
+}

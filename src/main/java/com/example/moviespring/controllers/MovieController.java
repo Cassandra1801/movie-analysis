@@ -6,6 +6,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.List;
+
 @Controller
 public class MovieController {
     private MovieService service = new MovieService();
@@ -25,7 +27,7 @@ public class MovieController {
     public ModelAndView getFirst(){
         ModelAndView mav = new ModelAndView();
         Movie first = service.getFirst();
-        mav.addObject("",first);
+        mav.addObject("firstMovie",first);
         return new ModelAndView("first");
     }
 }
