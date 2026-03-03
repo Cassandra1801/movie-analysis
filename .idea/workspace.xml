@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30a9930a-a986-4558-a001-522e3423d332" name="Changes" comment="made the whole 07 MVC &amp; thymeleaf exercises">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/examples/adventure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/examples/first-10-award.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/examples/first-and-last.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/examples/how-many-per-year.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviespring/controllers/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviespring/controllers/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviespring/services/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviespring/services/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/single-movie.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/single-movie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/application/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/application/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/application/single-movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/application/single-movie.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="work" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Cassandra1801&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Cassandra1801/movie-analysis.git&quot;,
+    &quot;accountId&quot;: &quot;7fd60810-61c6-4148-a859-81c4de670ae6&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;Cassandra1801&quot;,
+    &quot;repository&quot;: &quot;movie-analysis&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3AS9im4pPYJAenCho5bz6YT4kq1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MovieSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="movie-spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.moviespring.MovieSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30a9930a-a986-4558-a001-522e3423d332" name="Changes" comment="" />
+      <created>1772575236267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772575236267</updated>
+      <workItem from="1772575238338" duration="1895000" />
+      <workItem from="1772577170350" duration="1361000" />
+    </task>
+    <task id="LOCAL-00001" summary="made the whole 07 MVC &amp; thymeleaf exercises">
+      <option name="closed" value="true" />
+      <created>1772576905834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772576905834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made the whole 07 MVC &amp; thymeleaf exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="made the whole 07 MVC &amp; thymeleaf exercises" />
+  </component>
+</project>
