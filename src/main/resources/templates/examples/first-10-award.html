@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>First 10 Award Movies</title>
+</head>
+<body>
+<h1>First 10 award-winning movies</h1>
+
+<ol>
+    <li th:each="movie : ${movies}" th:text="${movie.title}"></li>
+</ol>
+</body>
+</html>

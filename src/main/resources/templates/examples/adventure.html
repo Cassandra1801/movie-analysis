@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Adventure Movies</title>
+</head>
+<body>
+<h1>Adventure movies</h1>
+
+<p th:text="'Average adventure length: ' + ${averageLength}"></p>
+
+<ul>
+    <li th:each="movie : ${movies}" th:text="${movie.title}"></li>
+</ul>
+</body>
+</html>
